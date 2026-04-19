@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Sandbox (required for Mac App Store) -->
+    <key>com.apple.security.app-sandbox</key>
+    <true/>
+
+    <!-- Microphone -->
+    <key>com.apple.security.device.audio-input</key>
+    <true/>
+
+    <!-- Audio output to any device -->
+    <key>com.apple.security.device.audio-output</key>
+    <true/>
+
+    <!-- Outbound network for LLM API calls -->
+    <key>com.apple.security.network.client</key>
+    <true/>
+
+    <!-- Speech recognition -->
+    <key>com.apple.security.speech-recognition</key>
+    <true/>
+</dict>
+</plist>
